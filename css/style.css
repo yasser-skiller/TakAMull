@@ -120,3 +120,56 @@ nav .active-item{
     height: 250px;
   }
 }
+
+.Bloge-Box-1{
+  position: absolute;
+  top: 530px;
+  left: 50px;
+  background-color: var(--MainCyan);
+  width: 150px;
+  height: 200px;
+}
+
+.Bloge-Box-1 .txt{
+  font-family: 'El Messiri', sans-serif;
+  color: var(--MainOrange);
+  font-size: 365px;
+  position: absolute;
+  top: -120px;
+  right: -30px;
+}
+
+.Bloge-Box-2{
+  position: absolute;
+  top: 500px;
+  left: 70px;
+  background-color: var(--MainOrange);
+  width: 150px;
+  height: 20px;
+}
+
+.Bloge-Box-3{
+  position: absolute;
+  top: 270px;
+  right: 70px;
+  background-color: var(--MainCyan);
+  width: 50px;
+  height: 50px;
+}
+.Bloge-Box-4 .txt{
+  font-family: 'El Messiri', sans-serif;
+  color: var(--MainCyan);
+  font-size: 365px;
+  position: absolute;
+  top: -120px;
+  right: 30px;
+}
+
+.Bloge-Box-4{
+  position: absolute;
+  top: 120px;
+  right: 0;
+  background-color: var(--MainOrange);
+  width: 200px;
+  height: 90px;
+}
