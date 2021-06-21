@@ -30,8 +30,8 @@ onscroll = function () {
 
   sections.forEach((section) => {
     if (
-      scrollPosition >= section.offsetTop - section.offsetHeight * 0.25 &&
-      scrollPosition < section.offsetTop + section.offsetHeight - section.offsetHeight * 0.25
+      scrollPosition >= section.offsetTop - section.offsetHeight * 1.2 &&
+      scrollPosition < section.offsetTop + section.offsetHeight - section.offsetHeight * 1.2
     ) {
       let currnetId = section.attributes.id.value;
       Remove();
