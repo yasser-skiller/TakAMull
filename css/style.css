@@ -90,6 +90,11 @@ nav .active-item{
   width: 150px;
   height: 50px;
 }
+.sec-icon2{
+  width: 100px;
+  height: 50px;
+}
+
 
 .Green-box{
   position: fixed;
@@ -187,6 +192,7 @@ nav .active-item{
 @media (max-width:467px) {
   .header-txt{
     font-size: 1.2rem;
+    top: 150px;
   }
 }
 .swiper-container{
