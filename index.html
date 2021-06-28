@@ -71,6 +71,26 @@
                 <p class="header-txt">
                     اهلا بكم في عالم تكامل
                 </p>
+                <div class="header-slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(/img/1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/10.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/11.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/2.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/3.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/4.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/5.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/6.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/7.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/8.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(/img/9.jpg)"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+               
 
             </div>
         </header>
@@ -230,7 +250,7 @@
             <section class="container my-5 ">
                 <div class="row justify-content-center">
                    
-                    <div class="col-12 col-lg-5 my-3 d-flex">
+                    <div class="col-12 col-lg-5 my-3 d-flex client">
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
                             <div class="swiper-slide d-flex">
@@ -307,14 +327,33 @@
         <script src="/js/spiwer.js"></script>
         <script src="./js/app.js"></script>
         <script>
-            var swiper = new Swiper('.swiper-container', {
+            var swiper = new Swiper('header .swiper-container', {
+              effect: 'cube',
+              grabCursor: true,
+              cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+              },
+              autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+              pagination: {
+                el: 'header .swiper-pagination',
+              },
+            });
+          </script>
+        <script>
+            var swiper = new Swiper('.client .swiper-container', {
                 autoplay: {
                     delay: 4000,
                     disableOnInteraction: false,
                 },
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
+                    nextEl: '.client .swiper-button-next',
+                    prevEl: '.client .swiper-button-prev',
                 },
             });
             document.querySelector(".bar-icon").addEventListener('click',()=>{
