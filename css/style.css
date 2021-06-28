@@ -198,10 +198,10 @@ nav .active-item{
   line-height: 1.9;
 }
 
-@media (max-width:467px) {
+@media (max-width:550px) {
   .header-txt{
-    font-size: 1.2rem;
-    top: 150px;
+    font-size: 1.7rem;
+    right: 45px;
   }
 }
 .swiper-container{
