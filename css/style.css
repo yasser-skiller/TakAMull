@@ -200,17 +200,27 @@ header .swiper-slide {
 }
 .header-txt{
   position: absolute;
-  top: 200px;
-  left:  175px;
+  top: 275px;
+  left:  125px;
   font-size: 2.25rem;
   line-height: 1.9;
 }
-@media (max-width:1075px) {
-  .header-txt{
-    left:  70px;
+/* @media (max-width:1200px) {
+  
+  .header-slider{
+    right: 5%;
   }
-}
-@media (max-width:970px) {
+  header .swiper-container {
+    width: 900px;
+    height: 350px;
+  }
+} */
+/* @media (max-width:1200px) {
+  .header-txt{
+    left:  40px;
+  }
+} */
+@media (max-width:1200px) {
   .header-txt{
     width: 100%;
     text-align: center;
@@ -249,7 +259,7 @@ header .swiper-slide {
 
 @media (max-width:367px) {
   .header-slider{
-    right: 30px;
+    right: 0px;
   }
   .header-txt{
     top: 350px;
